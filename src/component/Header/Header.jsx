@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from '../../assets/images/logo.png';
-import '../../App.css';
 
 const header = () => {
     return (
@@ -13,9 +12,9 @@ const header = () => {
                 <p className='header-item'>Brands</p>
                 <p className='header-item'>Pricing</p>
             </div>
-            <div className='flex gap-x-10'>
-                <button className='login'>Login</button>
-                <button>Register</button>
+            <div className='flex gap-x-10 items-center'>
+                <div className='login-button'> Login </div>
+                <div className='my-button'>Register</div>
             </div>
         </div>
     )

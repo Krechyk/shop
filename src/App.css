@@ -1,18 +1,103 @@
-.header-item{
+*{
     font-family: 'Manrope';
     font-style: normal;
+}
+.header-item{
     font-weight: 500;
     font-size: 16px;
     line-height: 16px;
     letter-spacing: 0.3px;
     color: #101913;
-};
-.login{
-    font-family: 'Manrope';
-    font-style: normal;
+}
+.login-button{
     font-weight: 500;
     font-size: 16px;
     line-height: 16px;
     letter-spacing: 0.3px;
-    color: red;
-};
+    color: #101913;
+}
+.my-button{
+    width: max-content;
+    padding: 8px 10px 8px 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: rgb(15 118 110);
+    border-radius: 15px;
+}
+.brands-text{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #101913;
+}
+.categories-text{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #101913;
+}
+.whychoose-title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #101913;
+    padding-bottom: 60px;
+}
+.whychopse-titles{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #101913;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.whychoose-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #535A56;
+}
+.products-title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #101913;
+    padding-bottom: 14px;
+}
+.product-name{
+    display: flex;
+    justify-content: start;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #101913;
+    padding-top: 12px;
+}
+.product-price{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #101913;
+    padding-top: 6px;
+}
+.footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #535A56;
+}
+.footer-items{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #101913;
+    padding-bottom: 5px;
+}
+.footer-item{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #535A56;
+}
